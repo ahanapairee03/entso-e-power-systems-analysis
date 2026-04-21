@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ignore data files
+data/*.csv
+data/*.xlsx
+
+# Ignore large data formats
+data/*.parquet
+data/*.zip
